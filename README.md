@@ -1,11 +1,12 @@
 # PDF.js Claude Skill Package
 
 ![Claude Code Ready](https://img.shields.io/badge/Claude_Code-Ready-blue?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+)
-![pdfjs-dist 4.x](https://img.shields.io/badge/pdfjs--dist-4.x-FF7139?style=flat-square)
+![pdfjs-dist 5.x](https://img.shields.io/badge/pdfjs--dist-5.x-FF7139?style=flat-square)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Skills](https://img.shields.io/badge/Skills-13-success?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 
-**Deterministic Claude AI skills for PDF.js (Mozilla) PDF rendering and viewer development — TypeScript/JavaScript coverage.**
+**13 deterministic Claude AI skills for PDF.js (Mozilla) PDF rendering and viewer development — TypeScript/JavaScript coverage.**
 
 Built on the [Agent Skills](https://agentskills.org) open standard.
 
@@ -50,29 +51,23 @@ await page.render({ canvasContext: ctx, viewport }).promise;
 
 ---
 
-## Current Progress
+## Skills (13)
 
-**Phase 1: Setup + Raw Masterplan** — 50% complete
+See [INDEX.md](INDEX.md) for the complete catalog with links.
 
-| Phase | Status |
-|-------|--------|
-| 1. Setup + Raw Masterplan | IN PROGRESS |
-| 2. Deep Research | NOT STARTED |
-| 3. Masterplan Refinement | NOT STARTED |
-| 4. Topic-Specific Research | NOT STARTED |
-| 5. Skill Creation | NOT STARTED |
-| 6. Validation | NOT STARTED |
-| 7. Publication | NOT STARTED |
+| Category | Skills | Description |
+|----------|--------|-------------|
+| **Core** | 1 | Architecture, layers, worker model |
+| **Syntax** | 5 | Worker setup, document loading, page rendering, text layer, annotation layer |
+| **Implementation** | 2 | Custom viewer, bundler integration |
+| **Error Handling** | 3 | Worker errors, rendering errors, document errors |
+| **Agents** | 2 | Code review checklist, project scaffolder |
 
-## Skill Categories
-
-| Category | Description |
-|----------|-------------|
-| `syntax/` | API syntax, method signatures, type patterns |
-| `impl/` | Step-by-step development workflows and integration guides |
-| `errors/` | Error diagnosis, debugging patterns, anti-patterns |
-| `core/` | Cross-cutting architecture, rendering pipeline, worker model |
-| `agents/` | Intelligent orchestration for viewer generation and review |
+Each skill includes:
+- `SKILL.md` — Main skill file (< 500 lines, deterministic ALWAYS/NEVER language)
+- `references/methods.md` — Complete API signatures
+- `references/examples.md` — Working, copy-paste-ready code
+- `references/anti-patterns.md` — What NOT to do (with correct alternatives)
 
 ## Installation
 
@@ -95,27 +90,16 @@ Upload individual SKILL.md files as project knowledge.
 
 | Technology | Versions | Notes |
 |------------|----------|-------|
-| pdfjs-dist | **4.x** | Primary target |
+| pdfjs-dist | **5.x** | Primary target (current: 5.5.207) |
 | TypeScript | 4.x / 5.x | Type safety |
 | Node.js | 18+ | Build tooling |
 | Browsers | Modern (Chrome, Firefox, Safari, Edge) | Full support |
-
-## Methodology
-
-This package is developed using the **7-phase research-first methodology**, proven across multiple skill packages:
-
-1. **Setup + Raw Masterplan** — Project structure and governance files
-2. **Deep Research** — Comprehensive source analysis of PDF.js documentation, source code, and community resources
-3. **Masterplan Refinement** — Skill inventory refinement based on research findings
-4. **Topic-Specific Research** — Deep-dive per skill topic
-5. **Skill Creation** — Deterministic skill files following Agent Skills standard
-6. **Validation** — Correctness, completeness, and consistency checks
-7. **Publication** — GitHub release and documentation
 
 ## Documentation
 
 | Document | Purpose |
 |----------|---------|
+| [INDEX.md](INDEX.md) | Complete skill catalog with links |
 | [ROADMAP.md](ROADMAP.md) | Project status (single source of truth) |
 | [REQUIREMENTS.md](REQUIREMENTS.md) | Quality guarantees and per-area requirements |
 | [DECISIONS.md](DECISIONS.md) | Architectural decisions with rationale |
@@ -128,7 +112,6 @@ This package is developed using the **7-phase research-first methodology**, prov
 
 | Project | Description |
 |---------|-------------|
-| [pdf-lib Skill Package](https://github.com/OpenAEC-Foundation/pdf-lib-Claude-Skill-Package) | Skills for pdf-lib PDF creation/modification |
 | [ERPNext Skill Package](https://github.com/OpenAEC-Foundation/ERPNext_Anthropic_Claude_Development_Skill_Package) | 28 skills for ERPNext/Frappe development |
 | [Tauri 2 Skill Package](https://github.com/OpenAEC-Foundation/Tauri-2-Claude-Skill-Package) | 27 skills for Tauri 2 desktop applications |
 | [Blender-Bonsai Skill Package](https://github.com/OpenAEC-Foundation/Blender-Bonsai-ifcOpenshell-Sverchok-Claude-Skill-Package) | 73 skills for Blender, Bonsai, IfcOpenShell & Sverchok |
