@@ -23,7 +23,7 @@ Date: 2026-03-19
 
 ---
 
-## Definitive Skill Inventory (14 skills)
+## Definitive Skill Inventory (13 skills — see D-015 for typescript removal)
 
 ### pdfjs-core/ (1 skill)
 
@@ -75,7 +75,7 @@ Date: 2026-03-19
 | 4 | `errors-rendering`, `errors-document`, `agents-review` | 3 | Batch 1-3 | Error skills + review agent |
 | 5 | `agents-project-scaffolder` | 1 | ALL above | Final: scaffolder references everything |
 
-**Total**: 14 skills across 5 batches.
+**Total**: 13 skills across 5 batches (pdfjs-syntax-typescript dropped per D-015).
 
 ---
 
