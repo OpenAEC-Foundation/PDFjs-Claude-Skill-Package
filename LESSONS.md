@@ -49,3 +49,19 @@ Observations and findings captured during skill package development.
 - **Date**: 2026-03-19
 - **Context**: Research on PDF.js architecture revealed clear layering.
 - **Finding**: Core (pdf.worker.mjs — binary parsing, no public API), Display (pdf.mjs — getDocument, PDFDocumentProxy, PDFPageProxy), Viewer (viewer.mjs — UI components). Skills should focus on Display layer API. Core layer is internal. Viewer layer is reference implementation only.
+
+---
+
+## L-007: Always Commit Research Before Skill Creation
+
+- **Date**: 2026-03-19
+- **Context**: Compliance audit discovered vooronderzoek (1623 lines) was never committed despite being created in Phase 2.
+- **Finding**: Research documents MUST be committed immediately after creation, in their own Phase commit. Combining research with skill creation commits obscures the methodology trail and risks losing work. Separate commits per phase are mandatory for audit traceability.
+
+---
+
+## L-008: YAML Descriptions Must Use Folded Block Scalar
+
+- **Date**: 2026-03-19
+- **Context**: All 13 skills used quoted string descriptions instead of the required folded block scalar (`>`).
+- **Finding**: The SKILL.md template mandates `description: >` (folded block scalar), NOT quoted strings. Descriptions MUST begin with "Use when [trigger]." followed by "Prevents [anti-pattern]." This format is critical for Claude's skill activation matching. Agent prompts must include the correct YAML format to prevent this recurring.

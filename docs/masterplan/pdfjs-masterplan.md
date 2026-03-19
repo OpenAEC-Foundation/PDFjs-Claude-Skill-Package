@@ -19,7 +19,7 @@ Date: 2026-03-19
 | D-06 | **Updated** version target from 4.x to 5.x | Research discovered pdfjs-dist is at v5.5.207. v4.x unmaintained. D-008 supersedes D-007. |
 | D-07 | **Reordered** batches: worker-setup before document-loading | Worker MUST be configured before any getDocument() call. Natural dependency order. |
 
-**Result**: 17 raw skills → **14 definitive skills** (4 merges, 1 addition, 0 removals).
+**Result**: 17 raw skills → **13 definitive skills** (4 merges, 1 addition, 1 removal — see D-015).
 
 ---
 

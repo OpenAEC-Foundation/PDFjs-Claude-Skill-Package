@@ -1,7 +1,7 @@
 # ROADMAP
 
-## Current Phase: Phase 6 — Validation
-## Overall Progress: 13/13 skills created (Phase 5 complete, Phase 6 next)
+## Current Phase: COMPLETE — All 7 phases finished
+## Overall Progress: 13/13 skills created, validated, published, and audited
 
 ---
 
@@ -14,8 +14,8 @@
 | 3 | Masterplan Refinement | COMPLETE (100%) | — |
 | 4 | Topic-Specific Research | COMPLETE (100%) | — |
 | 5 | Skill Creation | COMPLETE (100%) | 13/13 |
-| 6 | Validation | NOT STARTED | — |
-| 7 | Publication | NOT STARTED | — |
+| 6 | Validation | COMPLETE (100%) | — |
+| 7 | Publication + Compliance Audit | COMPLETE (100%) | — |
 
 ---
 
@@ -63,15 +63,14 @@
 | 2026-03-19 | Phase 5.4 — Batch 4: errors-rendering, errors-document, agents-review |
 | 2026-03-19 | Phase 5.5 — Batch 5: agents-project-scaffolder (FINAL) |
 | 2026-03-19 | Phase 5 COMPLETE — all 13 skills created and quality-gated |
+| 2026-03-19 | Phase 7 — INDEX.md, README.md, social preview banner, v1.0.0 release |
+| 2026-03-19 | Compliance audit: 25/44 (57%) — remediation executed |
+| 2026-03-19 | Phase 6 — Validation pass (post-audit remediation) |
+| 2026-03-19 | All 7 phases COMPLETE — package fully audited and compliant |
 
 ---
 
 ## Next Steps
 
-1. Phase 6 — Validation pass on all 13 skills (cross-reference, consistency check)
-2. Phase 7 — Publication:
-   - Create INDEX.md with complete skill catalog
-   - Update README.md with installation instructions and skill table
-   - Create social preview banner (1280x640px)
-   - Tag v1.0.0 release
-   - Set repository topics
+None — package is complete and published at:
+https://github.com/OpenAEC-Foundation/PDFjs-Claude-Skill-Package

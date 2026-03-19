@@ -74,3 +74,45 @@ Architectural and process decisions with rationale. Each decision is numbered an
 **Context**: AI training data may contain outdated or incorrect API information
 **Decision**: All code examples must be verified against official documentation via WebFetch before inclusion in skills
 **Rationale**: PDF.js API changes frequently between versions. Training data often contains v2/v3 patterns that are incorrect for v5.x.
+
+## D-011: Merge core-rendering-pipeline into syntax-page-rendering
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Masterplan refinement — rendering pipeline content overlaps with page rendering
+**Decision**: Merge `core-rendering-pipeline` into `syntax-page-rendering`. No standalone core rendering skill.
+**Rationale**: Rendering pipeline is best understood in context of page rendering. Separate core skill would duplicate viewport/canvas content.
+
+## D-012: Merge impl-text-search into impl-custom-viewer
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Masterplan refinement — text search is a viewer feature
+**Decision**: Merge `impl-text-search` into `impl-custom-viewer`.
+**Rationale**: Text search is not standalone; it's part of the viewer feature set.
+
+## D-013: Merge impl-form-handling into syntax-annotation-layer
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Masterplan refinement — form fields are Widget annotations
+**Decision**: Merge `impl-form-handling` into `syntax-annotation-layer`.
+**Rationale**: Form fields are Widget annotations. AnnotationStorage is part of the annotation API. Separate skill too thin.
+
+## D-014: Merge impl-print and impl-thumbnails into impl-custom-viewer
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Masterplan refinement — print and thumbnails are viewer features
+**Decision**: Merge `impl-print` and `impl-thumbnails` into `impl-custom-viewer`.
+**Rationale**: Print and thumbnails are viewer features, not standalone implementation skills.
+
+## D-015: Drop pdfjs-syntax-typescript skill
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Masterplan refinement added a TypeScript skill (D-05 in masterplan), but during Phase 5 execution it was determined that TypeScript patterns are adequately covered within each individual skill's code examples
+**Decision**: Drop `pdfjs-syntax-typescript` as a standalone skill. TypeScript patterns are integrated into all other skills. Final count: 13 skills (not 14).
+**Rationale**: Every skill already includes TypeScript code examples with proper type imports. A standalone TypeScript skill would only repeat content already present across the package.
+
+## D-016: Topic research conducted inline during skill creation
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Phase 4 topic research was done inline via WebFetch during Phase 5 agent execution rather than as separate research documents
+**Decision**: Topic-specific research was conducted inline during skill creation via WebFetch, not as separate documents in docs/research/topic-research/.
+**Rationale**: The comprehensive vooronderzoek (1623 lines) provided sufficient foundation. Agents used WebFetch for topic-specific verification during skill writing. This is consistent with the workflow which allows Phase 4 to run concurrently with Phase 5.

@@ -4,13 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [Unreleased]
+## [1.0.0] - 2026-03-19
 
 ### Added
 - Project initialized with 7-phase research-first methodology
 - Core documentation files (CLAUDE.md, ROADMAP.md, DECISIONS.md, etc.)
 - Directory structure for skills and research
-- Raw masterplan with 17 preliminary skills
+- Deep research: vooronderzoek-pdfjs.md (1623 lines)
 - Refined masterplan: 13 definitive skills across 5 batches
 - **13 complete skills** across 5 categories:
   - `pdfjs-core`: architecture (1 skill)
@@ -20,3 +20,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   - `pdfjs-agents`: review, project-scaffolder (2 skills)
 - Each skill includes SKILL.md + references/ (methods.md, examples.md, anti-patterns.md)
 - All skills target pdfjs-dist 5.x exclusively
+- INDEX.md with complete skill catalog
+- README.md with installation instructions, skill table, and social preview banner
+- Social preview banner (1280x640px)
+- Compliance audit and remediation pass

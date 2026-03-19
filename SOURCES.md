@@ -67,4 +67,9 @@ All skills in this package MUST be verified against these approved sources. No o
 
 | Technology | Date | Action | Notes |
 |------------|------|--------|-------|
-| PDF.js | 2026-03-19 | Initial setup | All URLs pending verification |
+| PDF.js Website | 2026-03-19 | Verified | Getting started guide confirmed |
+| PDF.js API Docs | 2026-03-19 | Verified | API reference for v5.x confirmed |
+| PDF.js GitHub | 2026-03-19 | Verified | Source code cross-referenced for v5 API |
+| pdfjs-dist npm | 2026-03-19 | Verified | v5.5.207 confirmed as latest |
+| PDF.js Wiki | 2026-03-19 | Verified | Architecture docs reviewed |
+| PDF.js Examples | 2026-03-19 | Verified | Official examples checked |
