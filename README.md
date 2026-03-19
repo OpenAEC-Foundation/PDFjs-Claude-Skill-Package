@@ -1,5 +1,9 @@
 # PDF.js Claude Skill Package
 
+<p align="center">
+  <img src="docs/social-preview.png" alt="13 Deterministic Skills for PDF.js" width="100%">
+</p>
+
 ![Claude Code Ready](https://img.shields.io/badge/Claude_Code-Ready-blue?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+)
 ![pdfjs-dist 5.x](https://img.shields.io/badge/pdfjs--dist-5.x-FF7139?style=flat-square)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178C6?style=flat-square&logo=typescript&logoColor=white)
