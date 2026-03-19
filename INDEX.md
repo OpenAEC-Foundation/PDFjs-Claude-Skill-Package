@@ -1,14 +1,15 @@
 # PDF.js Claude Skill Package — Skill Index
 
-> 13 deterministic skills for PDF.js (pdfjs-dist 5.x) development with Claude
+> 15 deterministic skills for PDF.js (pdfjs-dist 5.x) development with Claude
 
 ---
 
-## Core (1 skill)
+## Core (2 skills)
 
 | Skill | Description |
 |-------|-------------|
 | [pdfjs-core-architecture](skills/source/pdfjs-core/pdfjs-core-architecture/SKILL.md) | PDF.js three-layer architecture, worker thread model, component hierarchy, pdfjs-dist package structure |
+| [pdfjs-core-memory-management](skills/source/pdfjs-core/pdfjs-core-memory-management/SKILL.md) | Resource lifecycle, destroy/cleanup patterns, memory leak prevention, large PDF handling |
 
 ## Syntax (5 skills)
 
@@ -20,12 +21,13 @@
 | [pdfjs-syntax-text-layer](skills/source/pdfjs-syntax/pdfjs-syntax-text-layer/SKILL.md) | TextLayer class (v5), text content extraction, CSS overlay positioning, text selection |
 | [pdfjs-syntax-annotation-layer](skills/source/pdfjs-syntax/pdfjs-syntax-annotation-layer/SKILL.md) | AnnotationLayer class (v5), annotation types, link handling, form fields, AnnotationStorage |
 
-## Implementation (2 skills)
+## Implementation (3 skills)
 
 | Skill | Description |
 |-------|-------------|
 | [pdfjs-impl-custom-viewer](skills/source/pdfjs-impl/pdfjs-impl-custom-viewer/SKILL.md) | Complete PDF viewer with navigation, zoom, search, print, thumbnails, lazy loading |
 | [pdfjs-impl-bundler-integration](skills/source/pdfjs-impl/pdfjs-impl-bundler-integration/SKILL.md) | Webpack, Vite, Rollup, Next.js, Nuxt.js configuration for pdfjs-dist |
+| [pdfjs-impl-forms-and-save](skills/source/pdfjs-impl/pdfjs-impl-forms-and-save/SKILL.md) | Interactive PDF form filling, AnnotationStorage, getFieldObjects(), saveDocument(), download |
 
 ## Error Handling (3 skills)
 

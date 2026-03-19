@@ -1,16 +1,16 @@
 # PDF.js Claude Skill Package
 
 <p align="center">
-  <img src="docs/social-preview.png" alt="13 Deterministic Skills for PDF.js" width="100%">
+  <img src="docs/social-preview.png" alt="15 Deterministic Skills for PDF.js" width="100%">
 </p>
 
 ![Claude Code Ready](https://img.shields.io/badge/Claude_Code-Ready-blue?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJDNi40OCAyIDIgNi40OCAyIDEyczQuNDggMTAgMTAgMTAgMTAtNC40OCAxMC0xMFMxNy41MiAyIDEyIDJ6IiBmaWxsPSIjZmZmIi8+PC9zdmc+)
 ![pdfjs-dist 5.x](https://img.shields.io/badge/pdfjs--dist-5.x-FF7139?style=flat-square)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Skills](https://img.shields.io/badge/Skills-13-success?style=flat-square)
+![Skills](https://img.shields.io/badge/Skills-15-success?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 
-**13 deterministic Claude AI skills for PDF.js (Mozilla) PDF rendering and viewer development — TypeScript/JavaScript coverage.**
+**15 deterministic Claude AI skills for PDF.js (Mozilla) PDF rendering and viewer development — TypeScript/JavaScript coverage.**
 
 Built on the [Agent Skills](https://agentskills.org) open standard.
 
@@ -55,15 +55,15 @@ await page.render({ canvasContext: ctx, viewport }).promise;
 
 ---
 
-## Skills (13)
+## Skills (15)
 
 See [INDEX.md](INDEX.md) for the complete catalog with links.
 
 | Category | Skills | Description |
 |----------|--------|-------------|
-| **Core** | 1 | Architecture, layers, worker model |
+| **Core** | 2 | Architecture, layers, worker model, memory management |
 | **Syntax** | 5 | Worker setup, document loading, page rendering, text layer, annotation layer |
-| **Implementation** | 2 | Custom viewer, bundler integration |
+| **Implementation** | 3 | Custom viewer, bundler integration, forms & save |
 | **Error Handling** | 3 | Worker errors, rendering errors, document errors |
 | **Agents** | 2 | Code review checklist, project scaffolder |
 

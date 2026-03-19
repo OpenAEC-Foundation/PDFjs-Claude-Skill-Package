@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [1.1.0] - 2026-03-20
+
+### Added
+- `pdfjs-core-memory-management` — Resource lifecycle, destroy/cleanup patterns, memory leak prevention, large PDF handling
+- `pdfjs-impl-forms-and-save` — Interactive PDF form filling, AnnotationStorage, getFieldObjects(), saveDocument()
+- Skill count increased from 13 to 15
+
+### Changed
+- Updated INDEX.md, README.md, and social preview banner to reflect 15 skills
+- Updated ROADMAP.md, DECISIONS.md, and masterplan
+
 ## [1.0.0] - 2026-03-19
 
 ### Added

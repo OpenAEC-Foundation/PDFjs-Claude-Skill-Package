@@ -1,7 +1,7 @@
 # ROADMAP
 
-## Current Phase: COMPLETE — All 7 phases finished
-## Overall Progress: 13/13 skills created, validated, published, and audited
+## Current Phase: COMPLETE — All 7 phases finished (v1.1)
+## Overall Progress: 15/15 skills created, validated, published, and audited
 
 ---
 
@@ -13,7 +13,7 @@
 | 2 | Deep Research (Vooronderzoek) | COMPLETE (100%) | — |
 | 3 | Masterplan Refinement | COMPLETE (100%) | — |
 | 4 | Topic-Specific Research | COMPLETE (100%) | — |
-| 5 | Skill Creation | COMPLETE (100%) | 13/13 |
+| 5 | Skill Creation | COMPLETE (100%) | 15/15 |
 | 6 | Validation | COMPLETE (100%) | — |
 | 7 | Publication + Compliance Audit | COMPLETE (100%) | — |
 
@@ -23,12 +23,12 @@
 
 | Category | Count | Status |
 |----------|-------|--------|
-| pdfjs-core | 1 | COMPLETE |
+| pdfjs-core | 2 | COMPLETE |
 | pdfjs-syntax | 5 | COMPLETE |
-| pdfjs-impl | 2 | COMPLETE |
+| pdfjs-impl | 3 | COMPLETE |
 | pdfjs-errors | 3 | COMPLETE |
 | pdfjs-agents | 2 | COMPLETE |
-| **Total** | **13** | **100%** |
+| **Total** | **15** | **100%** |
 
 ### Skills Created
 
@@ -47,6 +47,8 @@
 | 11 | pdfjs-errors-document | 390 | 4 |
 | 12 | pdfjs-agents-review | 267 | 4 |
 | 13 | pdfjs-agents-project-scaffolder | 393 | 5 |
+| 14 | pdfjs-core-memory-management | 353 | 6 |
+| 15 | pdfjs-impl-forms-and-save | 385 | 6 |
 
 ---
 
@@ -64,9 +66,11 @@
 | 2026-03-19 | Phase 5.5 — Batch 5: agents-project-scaffolder (FINAL) |
 | 2026-03-19 | Phase 5 COMPLETE — all 13 skills created and quality-gated |
 | 2026-03-19 | Phase 7 — INDEX.md, README.md, social preview banner, v1.0.0 release |
-| 2026-03-19 | Compliance audit: 25/44 (57%) — remediation executed |
+| 2026-03-19 | Compliance audit: 25/44 (57%) — remediation executed, score → 84% |
 | 2026-03-19 | Phase 6 — Validation pass (post-audit remediation) |
-| 2026-03-19 | All 7 phases COMPLETE — package fully audited and compliant |
+| 2026-03-19 | v1.0.0 — All 7 phases COMPLETE with 13 skills |
+| 2026-03-20 | Gap analysis: identified memory management + forms/save as missing skills |
+| 2026-03-20 | v1.1.0 — Added core-memory-management + impl-forms-and-save (13→15 skills) |
 
 ---
 

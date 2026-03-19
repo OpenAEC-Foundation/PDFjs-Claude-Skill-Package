@@ -116,3 +116,10 @@ Architectural and process decisions with rationale. Each decision is numbered an
 **Context**: Phase 4 topic research was done inline via WebFetch during Phase 5 agent execution rather than as separate research documents
 **Decision**: Topic-specific research was conducted inline during skill creation via WebFetch, not as separate documents in docs/research/topic-research/.
 **Rationale**: The comprehensive vooronderzoek (1623 lines) provided sufficient foundation. Agents used WebFetch for topic-specific verification during skill writing. This is consistent with the workflow which allows Phase 4 to run concurrently with Phase 5.
+
+## D-017: Add memory management and forms/save skills (v1.1)
+**Date**: 2026-03-20
+**Status**: ACTIVE
+**Context**: Research gap analysis revealed two significant coverage gaps: memory management (most common production issue) and form filling/saveDocument (frequently requested use case). The vooronderzoek covered both topics but they were not included in the original 13-skill plan.
+**Decision**: Add `pdfjs-core-memory-management` and `pdfjs-impl-forms-and-save` as new skills. Skill count: 13 → 15.
+**Rationale**: Memory leaks are the #1 production PDF.js issue. Form filling with save is one of the most requested PDF.js features. Both were covered in the vooronderzoek research but omitted from the original skill plan.
