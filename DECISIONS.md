@@ -1,0 +1,55 @@
+# DECISIONS
+
+Architectural and process decisions with rationale. Each decision is numbered and immutable once recorded. New decisions may supersede old ones but old ones are never deleted.
+
+---
+
+## D-001: 7-Phase Research-First Methodology
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Need a structured approach to build high-quality skills
+**Decision**: Adopt the 7-phase methodology proven in the ERPNext, Blender-Bonsai, and Tauri 2 Skill Packages
+**Rationale**: ERPNext project successfully produced 28 domain skills, Blender-Bonsai produced 73 skills, Tauri 2 produced 27 skills with this approach. Research-first prevents hallucinated content.
+**Reference**: https://github.com/OpenAEC-Foundation/ERPNext_Anthropic_Claude_Development_Skill_Package/blob/main/WAY_OF_WORK.md
+
+## D-002: Single Technology Package
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: PDF.js is one technology — Mozilla's PDF viewer/renderer library
+**Decision**: No per-technology separation needed. All skills share the `pdfjs-` prefix under a single `skills/source/` tree.
+**Rationale**: PDF.js is a single library. The viewer API, worker API, and rendering pipeline are all part of the same framework, not separate technologies.
+
+## D-003: English-Only Skills
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Team works primarily in Dutch, skills target international audience
+**Decision**: ALL skill content in English only
+**Rationale**: Skills are instructions for Claude, not end-user documentation. Claude reads English and responds in any language. Bilingual skills double maintenance with zero functional benefit. Proven in ERPNext, Blender, and Tauri projects.
+
+## D-004: Claude Code Agent Tool for Orchestration
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Need to produce skills efficiently. Windows environment, no oa-cli available.
+**Decision**: Use Claude Code Agent tool for parallel execution instead of oa-cli
+**Rationale**: Windows environment does not support oa-cli (requires WSL/Linux). Claude Code Agent tool provides native parallelism within the Claude Code session. Simpler setup, no tmux/fcntl dependencies.
+
+## D-005: MIT License
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Need to choose open-source license
+**Decision**: MIT License
+**Rationale**: Most permissive, maximizes adoption. Consistent with OpenAEC Foundation philosophy.
+
+## D-006: ROADMAP.md as Single Source of Truth
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Need to track project status across multiple sessions and agents
+**Decision**: ROADMAP.md is the ONLY place where project status is tracked
+**Rationale**: Multiple status locations cause drift and confusion. Single source prevents "which is current?" questions. Proven in ERPNext, Blender, and Tauri projects.
+
+## D-007: pdfjs-dist 4.x Only
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: PDF.js has multiple major versions with different APIs and distribution methods
+**Decision**: All code targets pdfjs-dist 4.x exclusively. No legacy version coverage.
+**Rationale**: pdfjs-dist 4.x is the current major version with significant API changes from v3 and earlier. The rendering API, worker setup, and layer APIs have evolved substantially. Supporting older versions would dilute quality and create confusion.
