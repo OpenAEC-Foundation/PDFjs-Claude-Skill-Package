@@ -1,6 +1,12 @@
 ---
 name: pdfjs-errors-document
-description: "Diagnoses and fixes PDF document loading errors. Covers InvalidPDFException, MissingPDFException, PasswordException, CORS errors, missing CMap data for CJK fonts, font loading failures, and corrupt PDF handling. Activates when PDF fails to load, password prompt needed, CJK text missing, or network errors occur during PDF loading."
+description: >
+  Use when handling PDF document loading failures, password-protected PDFs, corrupt
+  files, or missing CMap/font data. Prevents unhandled exceptions by covering all
+  PDF.js error types and their recovery patterns.
+  Covers InvalidPDFException, MissingPDFException, PasswordException, network/CORS
+  errors, CJK font issues, and corrupt PDF recovery strategies.
+  Keywords: InvalidPDFException, MissingPDFException, PasswordException, CMap, CORS, corrupt PDF.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

@@ -1,6 +1,12 @@
 ---
 name: pdfjs-agents-review
-description: "Validates generated PDF.js code for correctness and best practices. Checks worker setup, render task cancellation, devicePixelRatio handling, layer stacking, memory management, v5 API compliance, and anti-pattern detection. Activates when reviewing PDF.js code, validating a PDF viewer implementation, or checking PDF.js code quality."
+description: >
+  Use when reviewing or validating generated PDF.js code for correctness, best
+  practices, and common mistakes. Prevents shipping code with missing worker setup,
+  uncancelled render tasks, incorrect DPI handling, or wrong layer stacking order.
+  Covers worker setup verification, render task lifecycle, memory management,
+  v5 API compliance, and anti-pattern detection checklist.
+  Keywords: code review, validation, checklist, anti-pattern, PDF.js review, quality.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

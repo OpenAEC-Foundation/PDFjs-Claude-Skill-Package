@@ -1,6 +1,11 @@
 ---
 name: pdfjs-syntax-worker-setup
-description: "Configures PDF.js Web Worker for document parsing. Covers GlobalWorkerOptions.workerSrc, CDN URLs, webpack/vite/rollup bundler configuration, fake worker mode, version matching, CMap setup, and standard font configuration. Activates when setting up PDF.js, configuring the worker, fixing worker errors, or integrating with a bundler."
+description: >
+  Use when configuring the PDF.js Web Worker for document parsing or fixing worker
+  loading errors. Prevents the #1 PDF.js mistake: version mismatch between pdfjs-dist
+  and the worker file. Covers GlobalWorkerOptions.workerSrc, CDN URLs, webpack/vite/rollup
+  bundler configuration, fake worker mode, CMap and standard font setup.
+  Keywords: workerSrc, GlobalWorkerOptions, pdf.worker.mjs, CDN, webpack, vite, CMap.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

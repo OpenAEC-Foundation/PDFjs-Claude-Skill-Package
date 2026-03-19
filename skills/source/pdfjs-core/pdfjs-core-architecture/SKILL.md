@@ -1,6 +1,11 @@
 ---
 name: pdfjs-core-architecture
-description: "Guides PDF.js architecture including the three-layer model (Core/Display/Viewer), worker thread architecture, component hierarchy, pdfjs-dist package structure, and rendering pipeline overview. Activates when starting a PDF.js project, understanding PDF.js internals, or reasoning about the rendering pipeline."
+description: >
+  Use when starting a PDF.js project, understanding PDF.js internals, or reasoning
+  about the rendering pipeline. Prevents the common mistake of misunderstanding the
+  three-layer model (Core/Display/Viewer) and worker thread architecture.
+  Covers component hierarchy, pdfjs-dist 5.x package structure, and rendering pipeline overview.
+  Keywords: PDF.js, pdfjs-dist, architecture, worker, PDFDocumentProxy, PDFPageProxy, layers.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

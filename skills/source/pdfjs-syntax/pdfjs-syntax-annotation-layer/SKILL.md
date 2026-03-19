@@ -1,6 +1,12 @@
 ---
 name: pdfjs-syntax-annotation-layer
-description: "Renders interactive PDF annotations using the AnnotationLayer class. Covers annotation types (links, text, widgets/forms, popups, highlights), link handling, form field rendering, AnnotationStorage for form data, and AnnotationEditorLayer for editing. Activates when adding annotations to PDF viewer, handling PDF links, rendering PDF forms, or extracting form data."
+description: >
+  Use when rendering interactive annotations (links, forms, highlights) on PDF pages
+  or implementing annotation editing. Prevents incorrect layer stacking by enforcing
+  the canvas > TextLayer > AnnotationLayer order.
+  Covers AnnotationLayer class, getAnnotations(), annotation types, link handling,
+  form field rendering, AnnotationStorage, and AnnotationEditorLayer.
+  Keywords: AnnotationLayer, getAnnotations, AnnotationStorage, Widget, Link, form fields.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

@@ -1,6 +1,12 @@
 ---
 name: pdfjs-errors-worker
-description: "Diagnoses and fixes PDF.js Web Worker errors. Covers version mismatch errors, worker loading failures, CORS issues, CSP violations, fake worker fallback, and worker initialization problems. Activates when PDF.js worker fails to load, version mismatch error appears, or worker-related errors occur."
+description: >
+  Use when debugging PDF.js worker loading failures, version mismatch errors, or
+  CSP/CORS violations. Prevents the most common PDF.js error: "API version does not
+  match Worker version" caused by mismatched pdfjs-dist and worker file versions.
+  Covers worker initialization failures, CORS errors, CSP violations, fake worker
+  fallback, missing worker diagnostics, and timeout issues.
+  Keywords: worker error, version mismatch, CORS, CSP, fake worker, workerSrc.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

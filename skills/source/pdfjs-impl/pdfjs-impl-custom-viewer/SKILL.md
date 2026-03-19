@@ -1,6 +1,12 @@
 ---
 name: pdfjs-impl-custom-viewer
-description: "Builds a complete custom PDF viewer with page navigation, zoom controls, text search, print support, and thumbnails. Covers lazy page loading with IntersectionObserver, virtual scrolling, scroll-based page detection, and memory management. Activates when building a PDF viewer, adding PDF viewing to a web app, implementing page navigation, zoom, search, print, or thumbnail generation."
+description: >
+  Use when building a complete PDF viewer from scratch with page navigation, zoom,
+  search, and print functionality. Prevents the critical mistake of rendering all
+  pages at once instead of using lazy loading with IntersectionObserver.
+  Covers page navigation, zoom controls, scroll-based lazy loading, virtual scrolling,
+  thumbnail generation, text search with highlighting, and print support.
+  Keywords: PDF viewer, lazy loading, IntersectionObserver, zoom, search, print, thumbnails.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

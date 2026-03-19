@@ -1,6 +1,12 @@
 ---
 name: pdfjs-syntax-page-rendering
-description: "Renders PDF pages to canvas using page.render() and manages the rendering pipeline. Covers RenderTask lifecycle, viewport creation with scale/rotation, high-DPI canvas scaling with devicePixelRatio, render cancellation patterns, and layer stacking order. Activates when rendering PDF pages, handling zoom/rotation, fixing blurry PDF rendering, or managing render tasks."
+description: >
+  Use when rendering PDF pages to canvas, handling viewports, or managing render tasks.
+  Prevents blurry rendering by ensuring proper devicePixelRatio handling and avoids
+  race conditions by enforcing render task cancellation before re-rendering.
+  Covers page.render(), getViewport(), RenderTask lifecycle, high-DPI scaling,
+  OffscreenCanvas, and the canvas-text-annotation layer stacking order.
+  Keywords: page.render, getViewport, RenderTask, canvas, devicePixelRatio, viewport, DPI.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

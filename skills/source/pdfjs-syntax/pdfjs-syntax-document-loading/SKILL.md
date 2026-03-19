@@ -1,6 +1,12 @@
 ---
 name: pdfjs-syntax-document-loading
-description: "Loads PDF documents using getDocument() with all source types. Covers PDFDocumentLoadingTask, PDFDocumentProxy, PDFPageProxy, progress tracking, cancellation, metadata extraction, outline/bookmarks, and document cleanup. Activates when loading PDFs, extracting PDF metadata, getting page count, or accessing PDF document properties."
+description: >
+  Use when loading PDF documents with getDocument(), handling loading progress, or
+  working with PDFDocumentProxy/PDFPageProxy. Prevents common mistakes like forgetting
+  to configure the worker before calling getDocument() or not destroying the document.
+  Covers all source types (URL, ArrayBuffer, TypedArray), password-protected PDFs,
+  metadata extraction, and document lifecycle management.
+  Keywords: getDocument, PDFDocumentLoadingTask, PDFDocumentProxy, PDFPageProxy, password PDF.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

@@ -1,6 +1,13 @@
 ---
 name: pdfjs-agents-project-scaffolder
-description: "Generates complete PDF.js project structures with proper worker configuration, rendering pipeline, text and annotation layers, and bundler integration. Covers vanilla JS, webpack, and Vite setups with TypeScript support. Activates when creating a new PDF.js project, scaffolding a PDF viewer, or setting up PDF.js from scratch."
+description: >
+  Use when generating a complete PDF.js project from scratch, scaffolding a new
+  PDF viewer application, or setting up the full rendering pipeline with all layers.
+  Prevents incomplete project setup by ensuring worker, canvas, text layer, and
+  annotation layer are all properly configured.
+  Covers bundler-specific worker config, HTML/CSS templates, TypeScript setup,
+  package.json with correct pdfjs-dist version, and full rendering pipeline.
+  Keywords: scaffold, project setup, boilerplate, PDF viewer template, TypeScript, pdfjs-dist.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

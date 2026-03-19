@@ -1,6 +1,12 @@
 ---
 name: pdfjs-errors-rendering
-description: "Diagnoses and fixes PDF.js rendering errors. Covers blurry text from missing devicePixelRatio, render task race conditions, memory issues, concurrent render conflicts, text layer misalignment, and annotation layer z-index problems. Activates when PDF renders blurry, text is misaligned, rendering is slow, or render tasks conflict."
+description: >
+  Use when debugging canvas rendering errors, blurry text, render task race conditions,
+  or memory issues from PDF page rendering. Prevents blurry rendering by enforcing
+  devicePixelRatio scaling and avoids memory leaks from concurrent render conflicts.
+  Covers canvas errors, text layer positioning, annotation layer z-index issues,
+  and memory management for multi-page rendering.
+  Keywords: blurry PDF, devicePixelRatio, RenderTask, canvas error, memory leak, z-index.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

@@ -1,6 +1,12 @@
 ---
 name: pdfjs-syntax-text-layer
-description: "Creates selectable and searchable text overlays using the TextLayer class. Covers text content extraction, TextLayer rendering, CSS positioning, text selection, plain text extraction, and streaming text content. Activates when adding text selection to PDF viewer, extracting text from PDF, implementing PDF search, or fixing text layer positioning."
+description: >
+  Use when adding selectable/searchable text overlay to rendered PDF pages or extracting
+  text content from PDFs. Prevents the common mistake of using the deprecated
+  renderTextLayer() function instead of the v5 TextLayer class.
+  Covers TextLayer class, getTextContent(), streamTextContent(), CSS overlay positioning,
+  text selection, and plain text extraction.
+  Keywords: TextLayer, getTextContent, text selection, text extraction, textContentSource.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

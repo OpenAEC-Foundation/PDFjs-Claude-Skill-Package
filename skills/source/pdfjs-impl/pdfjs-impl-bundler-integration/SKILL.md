@@ -1,6 +1,12 @@
 ---
 name: pdfjs-impl-bundler-integration
-description: "Integrates pdfjs-dist with modern JavaScript bundlers. Covers webpack worker configuration, Vite setup with import.meta.url, Rollup configuration, Next.js/Nuxt.js patterns, CMap and font file copying, and tree-shaking considerations. Activates when configuring PDF.js with webpack, vite, rollup, next.js, or any bundler, or when fixing worker loading issues in bundled applications."
+description: >
+  Use when integrating pdfjs-dist with webpack, Vite, Rollup, Next.js, or Nuxt.js
+  build systems. Prevents worker loading failures caused by incorrect bundler
+  configuration for the pdf.worker.mjs file.
+  Covers webpack worker-loader/asset module config, Vite import.meta.url pattern,
+  Rollup config, CMap/font file copying, and tree-shaking considerations.
+  Keywords: webpack, vite, rollup, Next.js, bundler, worker-loader, import.meta.url.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:
