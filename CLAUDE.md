@@ -42,7 +42,7 @@ The masterplan must include: refinement decisions table, skill inventory with ex
 
 ## Project Identity
 - PDF.js (Mozilla) skill package for Claude — single technology, TypeScript/JavaScript
-- Technology: pdfjs-dist 4.x (Mozilla's PDF viewer library for rendering and interacting with PDF documents in the browser)
+- Technology: pdfjs-dist 5.x (Mozilla's PDF viewer library for rendering and interacting with PDF documents in the browser)
 - Methodology: 7-phase research-first development (proven in ERPNext, Blender, and Tauri packages)
 - Reference projects:
   - ERPNext: https://github.com/OpenAEC-Foundation/ERPNext_Anthropic_Claude_Development_Skill_Package
@@ -65,7 +65,7 @@ The masterplan must include: refinement decisions table, skill inventory with ex
 ## Technology Scope
 | Tech | Prefix | Versions |
 |------|--------|----------|
-| PDF.js | pdfjs- | pdfjs-dist 4.x |
+| PDF.js | pdfjs- | pdfjs-dist 5.x |
 
 ## Skill Categories
 | Category | Purpose | Naming |
@@ -169,7 +169,7 @@ We are NOT a relay/passthrough. We are the strategic brain.
 
 **From REQUIREMENTS.md:**
 - Skill format requirements (YAML frontmatter, structure)
-- pdfjs-dist 4.x version coverage
+- pdfjs-dist 5.x version coverage
 - TypeScript/JavaScript code examples with proper usage
 
 **From DECISIONS.md:**
@@ -204,7 +204,7 @@ If validation fails:
 ### Before ANY research:
 1. Read **SOURCES.md** → Know approved sources for PDF.js
 2. Read **REQUIREMENTS.md** → Know what the research must cover
-3. Read **DECISIONS.md** → Know constraints (D-003 English-only, D-007 pdfjs-dist 4.x, D-012 WebFetch, etc.)
+3. Read **DECISIONS.md** → Know constraints (D-003 English-only, D-007 pdfjs-dist 5.x, D-012 WebFetch, etc.)
 
 ### During research:
 - Use ONLY sources listed in **SOURCES.md** (or add new ones there)

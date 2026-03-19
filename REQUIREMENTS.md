@@ -8,14 +8,14 @@ Enable Claude to write correct, version-aware PDF.js code for rendering and inte
 ### What Claude Should Do After Loading Skills
 1. Recognize PDF.js context from user requests (PDF viewing, rendering, text extraction)
 2. Select the correct skill(s) automatically based on the request
-3. Write correct TypeScript/JavaScript code using pdfjs-dist 4.x APIs
+3. Write correct TypeScript/JavaScript code using pdfjs-dist 5.x APIs
 4. Avoid known anti-patterns and common AI mistakes
 5. Follow best practices documented in the skill references
 
 ### Quality Guarantees
 | Guarantee | Description |
 |-----------|-------------|
-| Version-correct | Code MUST target pdfjs-dist 4.x |
+| Version-correct | Code MUST target pdfjs-dist 5.x |
 | API-accurate | All method signatures verified against official docs |
 | Worker-aware | Skills MUST address worker setup correctly |
 | Anti-pattern-free | Known mistakes are explicitly documented and avoided |
@@ -86,7 +86,7 @@ Enable Claude to write correct, version-aware PDF.js code for rendering and inte
 
 ## Critical Requirements (apply to ALL skills)
 
-- All code MUST work with pdfjs-dist 4.x
+- All code MUST work with pdfjs-dist 5.x
 - Worker setup MUST be shown in every skill that loads documents
 - All TypeScript MUST include proper type imports from `pdfjs-dist`
 - Canvas rendering MUST handle `devicePixelRatio` for high-DPI displays

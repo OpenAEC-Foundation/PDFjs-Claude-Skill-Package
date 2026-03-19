@@ -49,7 +49,28 @@ Architectural and process decisions with rationale. Each decision is numbered an
 
 ## D-007: pdfjs-dist 4.x Only
 **Date**: 2026-03-19
-**Status**: ACTIVE
+**Status**: SUPERSEDED by D-008
 **Context**: PDF.js has multiple major versions with different APIs and distribution methods
 **Decision**: All code targets pdfjs-dist 4.x exclusively. No legacy version coverage.
 **Rationale**: pdfjs-dist 4.x is the current major version with significant API changes from v3 and earlier. The rendering API, worker setup, and layer APIs have evolved substantially. Supporting older versions would dilute quality and create confusion.
+
+## D-008: pdfjs-dist 5.x Target
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Phase 2 research revealed pdfjs-dist is now at v5.5.207 (March 2026). Version 4.x is no longer maintained. Key API changes: `renderTextLayer()` deprecated in favor of `TextLayer` class, `AnnotationLayer` follows same pattern, private class fields adopted, deprecated options removed.
+**Decision**: All code targets pdfjs-dist 5.x exclusively. No v4 or earlier coverage.
+**Rationale**: v5.x is the current major version (latest: 5.5.207). v4.x is unmaintained. The class-based TextLayer/AnnotationLayer API is the only supported approach. Targeting v5 ensures skills stay relevant.
+
+## D-009: SKILL.md < 500 Lines
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: Skills need to be scannable and focused
+**Decision**: SKILL.md files must be under 500 lines. Heavy content goes in references/ directory.
+**Rationale**: Long files reduce skill effectiveness. The references/ pattern separates quick-reference from deep-dive content.
+
+## D-010: WebFetch Verification Required
+**Date**: 2026-03-19
+**Status**: ACTIVE
+**Context**: AI training data may contain outdated or incorrect API information
+**Decision**: All code examples must be verified against official documentation via WebFetch before inclusion in skills
+**Rationale**: PDF.js API changes frequently between versions. Training data often contains v2/v3 patterns that are incorrect for v5.x.
