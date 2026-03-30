@@ -6,7 +6,9 @@ description: >
   PDF.js error types and their recovery patterns.
   Covers InvalidPDFException, MissingPDFException, PasswordException, network/CORS
   errors, CJK font issues, and corrupt PDF recovery strategies.
-  Keywords: InvalidPDFException, MissingPDFException, PasswordException, CMap, CORS, corrupt PDF.
+  Keywords: InvalidPDFException, MissingPDFException, PasswordException, CMap,
+  CORS, corrupt PDF, PDF won't load, broken PDF, can't open PDF,
+  password protected, PDF error.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

@@ -6,7 +6,9 @@ description: >
   match Worker version" caused by mismatched pdfjs-dist and worker file versions.
   Covers worker initialization failures, CORS errors, CSP violations, fake worker
   fallback, missing worker diagnostics, and timeout issues.
-  Keywords: worker error, version mismatch, CORS, CSP, fake worker, workerSrc.
+  Keywords: worker error, version mismatch, CORS, CSP, fake worker, workerSrc,
+  API version does not match Worker version, worker failed to load,
+  PDF.js not working, worker setup.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

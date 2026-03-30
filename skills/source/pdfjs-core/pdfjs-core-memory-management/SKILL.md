@@ -6,7 +6,9 @@ description: >
   from unreleased PDFDocumentProxy, uncleaned pages, and orphaned canvas contexts.
   Covers destroy/cleanup lifecycle, canvas reuse, render task cancellation, blob URL
   revocation, and large PDF handling strategies.
-  Keywords: memory leak, destroy, cleanup, PDFDocumentProxy, canvas, blob URL, garbage collection.
+  Keywords: memory leak, destroy, cleanup, PDFDocumentProxy, canvas, blob URL,
+  garbage collection, browser tab slow, PDF viewer uses too much memory,
+  page gets slower, out of memory.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

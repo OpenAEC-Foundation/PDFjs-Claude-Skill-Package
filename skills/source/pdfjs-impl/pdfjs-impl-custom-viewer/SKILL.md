@@ -6,7 +6,9 @@ description: >
   pages at once instead of using lazy loading with IntersectionObserver.
   Covers page navigation, zoom controls, scroll-based lazy loading, virtual scrolling,
   thumbnail generation, text search with highlighting, and print support.
-  Keywords: PDF viewer, lazy loading, IntersectionObserver, zoom, search, print, thumbnails.
+  Keywords: PDF viewer, lazy loading, IntersectionObserver, zoom, search, print,
+  thumbnails, build PDF viewer, render PDF in browser, view PDF online,
+  page navigation, custom reader.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

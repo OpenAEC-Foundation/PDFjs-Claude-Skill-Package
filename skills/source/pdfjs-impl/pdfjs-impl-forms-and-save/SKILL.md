@@ -6,7 +6,9 @@ description: >
   AnnotationStorage changes and incorrect form field type handling.
   Covers AnnotationStorage API, form field types (text, checkbox, radio, dropdown,
   signature), getFieldObjects(), saveDocument(), and download patterns.
-  Keywords: PDF forms, AnnotationStorage, getFieldObjects, saveDocument, form filling, AcroForm.
+  Keywords: PDF forms, AnnotationStorage, getFieldObjects, saveDocument,
+  form filling, AcroForm, fill PDF form, save filled PDF, interactive form,
+  read form values, download modified PDF.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

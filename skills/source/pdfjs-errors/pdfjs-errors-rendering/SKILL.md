@@ -6,7 +6,9 @@ description: >
   devicePixelRatio scaling and avoids memory leaks from concurrent render conflicts.
   Covers canvas errors, text layer positioning, annotation layer z-index issues,
   and memory management for multi-page rendering.
-  Keywords: blurry PDF, devicePixelRatio, RenderTask, canvas error, memory leak, z-index.
+  Keywords: blurry PDF, devicePixelRatio, RenderTask, canvas error, memory leak,
+  z-index, PDF looks blurry, text not sharp, blank page, rendering broken,
+  PDF not displaying correctly.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

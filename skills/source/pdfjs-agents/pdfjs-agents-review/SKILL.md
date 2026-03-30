@@ -6,7 +6,8 @@ description: >
   uncancelled render tasks, incorrect DPI handling, or wrong layer stacking order.
   Covers worker setup verification, render task lifecycle, memory management,
   v5 API compliance, and anti-pattern detection checklist.
-  Keywords: code review, validation, checklist, anti-pattern, PDF.js review, quality.
+  Keywords: code review, validation, checklist, anti-pattern, PDF.js review,
+  quality, check my PDF code, verify PDF.js setup, audit viewer.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

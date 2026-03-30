@@ -6,7 +6,9 @@ description: >
   configuration for the pdf.worker.mjs file.
   Covers webpack worker-loader/asset module config, Vite import.meta.url pattern,
   Rollup config, CMap/font file copying, and tree-shaking considerations.
-  Keywords: webpack, vite, rollup, Next.js, bundler, worker-loader, import.meta.url.
+  Keywords: webpack, vite, rollup, Next.js, bundler, worker-loader,
+  import.meta.url, PDF.js with Vite, PDF.js with webpack, worker not loading,
+  bundler configuration, Nuxt.js.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

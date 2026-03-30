@@ -7,7 +7,9 @@ description: >
   annotation layer are all properly configured.
   Covers bundler-specific worker config, HTML/CSS templates, TypeScript setup,
   package.json with correct pdfjs-dist version, and full rendering pipeline.
-  Keywords: scaffold, project setup, boilerplate, PDF viewer template, TypeScript, pdfjs-dist.
+  Keywords: scaffold, project setup, boilerplate, PDF viewer template,
+  TypeScript, pdfjs-dist, new PDF viewer, create PDF app, start PDF.js project,
+  build PDF reader.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

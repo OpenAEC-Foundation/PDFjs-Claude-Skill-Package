@@ -6,7 +6,9 @@ description: >
   to configure the worker before calling getDocument() or not destroying the document.
   Covers all source types (URL, ArrayBuffer, TypedArray), password-protected PDFs,
   metadata extraction, and document lifecycle management.
-  Keywords: getDocument, PDFDocumentLoadingTask, PDFDocumentProxy, PDFPageProxy, password PDF.
+  Keywords: getDocument, PDFDocumentLoadingTask, PDFDocumentProxy, PDFPageProxy,
+  password PDF, load PDF file, open PDF, fetch PDF, PDF from URL,
+  load PDF from ArrayBuffer.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

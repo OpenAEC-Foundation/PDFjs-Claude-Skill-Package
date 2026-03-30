@@ -6,7 +6,9 @@ description: >
   the canvas > TextLayer > AnnotationLayer order.
   Covers AnnotationLayer class, getAnnotations(), annotation types, link handling,
   form field rendering, AnnotationStorage, and AnnotationEditorLayer.
-  Keywords: AnnotationLayer, getAnnotations, AnnotationStorage, Widget, Link, form fields.
+  Keywords: AnnotationLayer, getAnnotations, AnnotationStorage, Widget, Link,
+  form fields, clickable links, interactive PDF, annotations not showing,
+  form overlay, PDF buttons.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

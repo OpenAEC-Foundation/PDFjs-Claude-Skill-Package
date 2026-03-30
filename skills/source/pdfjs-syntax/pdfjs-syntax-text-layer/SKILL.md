@@ -6,7 +6,9 @@ description: >
   renderTextLayer() function instead of the v5 TextLayer class.
   Covers TextLayer class, getTextContent(), streamTextContent(), CSS overlay positioning,
   text selection, and plain text extraction.
-  Keywords: TextLayer, getTextContent, text selection, text extraction, textContentSource.
+  Keywords: TextLayer, getTextContent, text selection, text extraction,
+  textContentSource, select text in PDF, copy text from PDF, searchable PDF,
+  extract text, text overlay.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

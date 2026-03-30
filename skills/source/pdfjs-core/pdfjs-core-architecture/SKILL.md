@@ -5,7 +5,9 @@ description: >
   about the rendering pipeline. Prevents the common mistake of misunderstanding the
   three-layer model (Core/Display/Viewer) and worker thread architecture.
   Covers component hierarchy, pdfjs-dist 5.x package structure, and rendering pipeline overview.
-  Keywords: PDF.js, pdfjs-dist, architecture, worker, PDFDocumentProxy, PDFPageProxy, layers.
+  Keywords: PDF.js, pdfjs-dist, architecture, worker, PDFDocumentProxy,
+  PDFPageProxy, layers, how PDF.js works, PDF rendering pipeline,
+  what is pdfjs-dist.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:

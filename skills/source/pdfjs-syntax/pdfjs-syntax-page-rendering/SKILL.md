@@ -6,7 +6,9 @@ description: >
   race conditions by enforcing render task cancellation before re-rendering.
   Covers page.render(), getViewport(), RenderTask lifecycle, high-DPI scaling,
   OffscreenCanvas, and the canvas-text-annotation layer stacking order.
-  Keywords: page.render, getViewport, RenderTask, canvas, devicePixelRatio, viewport, DPI.
+  Keywords: page.render, getViewport, RenderTask, canvas, devicePixelRatio,
+  viewport, DPI, render PDF page, display PDF, canvas rendering,
+  high resolution PDF, retina display.
 license: MIT
 compatibility: "Designed for Claude Code. Requires pdfjs-dist 5.x."
 metadata:
