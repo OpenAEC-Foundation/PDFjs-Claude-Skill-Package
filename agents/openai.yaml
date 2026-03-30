@@ -1,0 +1,5 @@
+# OpenAI Codex skill discovery
+name: pdfjs-claude-skill-package
+description: >
+  15 deterministic Claude AI skills for PDF.js (pdfjs-dist 5.x) rendering, viewer development, error handling, and project scaffolding
+skills_directory: ./skills/source

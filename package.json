@@ -1,0 +1,39 @@
+{
+  "name": "@openaec/pdfjs-claude-skill-package",
+  "version": "1.2.0",
+  "description": "15 deterministic Claude AI skills for PDF.js (pdfjs-dist 5.x) — rendering, viewer development, error handling, and project scaffolding",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenAEC-Foundation/PDFjs-Claude-Skill-Package"
+  },
+  "keywords": [
+    "agent-skills",
+    "agentskills",
+    "claude-skills",
+    "pdfjs",
+    "pdf",
+    "document-viewer",
+    "typescript",
+    "deterministic"
+  ],
+  "agents": {
+    "skills": [
+      { "name": "pdfjs-agents-project-scaffolder", "path": "./skills/source/pdfjs-agents/pdfjs-agents-project-scaffolder" },
+      { "name": "pdfjs-agents-review", "path": "./skills/source/pdfjs-agents/pdfjs-agents-review" },
+      { "name": "pdfjs-core-architecture", "path": "./skills/source/pdfjs-core/pdfjs-core-architecture" },
+      { "name": "pdfjs-core-memory-management", "path": "./skills/source/pdfjs-core/pdfjs-core-memory-management" },
+      { "name": "pdfjs-errors-document", "path": "./skills/source/pdfjs-errors/pdfjs-errors-document" },
+      { "name": "pdfjs-errors-rendering", "path": "./skills/source/pdfjs-errors/pdfjs-errors-rendering" },
+      { "name": "pdfjs-errors-worker", "path": "./skills/source/pdfjs-errors/pdfjs-errors-worker" },
+      { "name": "pdfjs-impl-bundler-integration", "path": "./skills/source/pdfjs-impl/pdfjs-impl-bundler-integration" },
+      { "name": "pdfjs-impl-custom-viewer", "path": "./skills/source/pdfjs-impl/pdfjs-impl-custom-viewer" },
+      { "name": "pdfjs-impl-forms-and-save", "path": "./skills/source/pdfjs-impl/pdfjs-impl-forms-and-save" },
+      { "name": "pdfjs-syntax-annotation-layer", "path": "./skills/source/pdfjs-syntax/pdfjs-syntax-annotation-layer" },
+      { "name": "pdfjs-syntax-document-loading", "path": "./skills/source/pdfjs-syntax/pdfjs-syntax-document-loading" },
+      { "name": "pdfjs-syntax-page-rendering", "path": "./skills/source/pdfjs-syntax/pdfjs-syntax-page-rendering" },
+      { "name": "pdfjs-syntax-text-layer", "path": "./skills/source/pdfjs-syntax/pdfjs-syntax-text-layer" },
+      { "name": "pdfjs-syntax-worker-setup", "path": "./skills/source/pdfjs-syntax/pdfjs-syntax-worker-setup" }
+    ]
+  }
+}

@@ -95,7 +95,7 @@ Need PDF.js worker setup?
 
 ## Complete Setup Patterns
 
-### 1. CDN Setup (Simplest — No Bundler)
+### 1. CDN Setup (Simplest: No Bundler)
 
 ```javascript
 import * as pdfjsLib from 'pdfjs-dist';
